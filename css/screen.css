@@ -1,3 +1,7 @@
+body {
+    background: LightBlue;
+}
+
 /*
     Elements: Page
     ---
@@ -10,6 +14,11 @@ html {
     font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
     color: #111;
     padding: 48px 24px 24px;
+}
+
+body {
+    max-width: 42em;
+    margin: 0 auto;
 }
 
 /*
@@ -121,3 +130,36 @@ a:hover, a:focus {
 a:visited, a:active {
     color: BlueViolet;
 }
+
+/*
+    Media Queries
+    ---
+    EXAMPLE Media Queries for Responsive Design.
+    These examples override the primary ('mobile first') styles.
+    Modify as content requires.
+*/
+
+/* Extra small devices (portrait phones, less than 576px)
+   No media query since this is the default in Bootstrap
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 58px;
+        line-height: 64px;
+    }
+}
+
+/* Large devices (landscape tablets, desktops, 992px and up) */
+
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
